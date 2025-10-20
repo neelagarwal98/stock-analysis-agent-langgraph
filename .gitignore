@@ -1,0 +1,46 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.dylib
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+*.log
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+.profile_default/
+.ipython/
+
+# --- Environments ---
+.venv/
+venv/
+ENV/
+.env
+.env.*
+*.env
+
+# --- Caches / tooling ---
+.pytest_cache/
+.mypy_cache/
+.cache/
+coverage/
+htmlcov/
+.tox/
+
+# --- OS / Editors ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# --- Project-specific ---
+# (We DO commit uv.lock and pyproject.toml)
+stock-agent-mcp/.venv/
+stock-agent-mcp/src/*.egg-info/
